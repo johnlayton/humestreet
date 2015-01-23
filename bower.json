@@ -1,0 +1,22 @@
+{
+  "name"         : "humestreet",
+  "version"      : "0.0.1",
+  "homepage"     : "https://github.com/johnlayton/humestreet",
+  "authors"      : [
+    "john layton <johnstewartlayton@gmail.com>"
+  ],
+  "moduleType"   : [
+    "node"
+  ],
+  "license"      : "MIT",
+  "ignore"       : [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies" : {
+    "openlayers" : "https://github.com/openlayers/ol3/releases/download/v3.1.1/v3.1.1.zip"
+  }
+}

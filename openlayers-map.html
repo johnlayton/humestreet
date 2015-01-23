@@ -1,0 +1,14 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="./openlayers-import.html">
+
+<polymer-element name="openlayers-map" attributes="">
+  <template>
+    <link rel="stylesheet" href="../openlayers/css/ol.css" type="text/css">
+    <style>
+      :host { display: block; }
+      :host #map {height:100%; width:100%}
+    </style>
+    <div id="map"></div>
+  </template>
+  <script src="./openlayers-map.js"></script>
+</polymer-element>
