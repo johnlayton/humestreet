@@ -43,8 +43,8 @@ Polymer( 'openlayers-map', {
     } );
 
     var view = new ol.View( {
-      center: ol.proj.transform( [145.5, -37.8], 'EPSG:4326', 'EPSG:3857' ),
-      zoom  : 9
+      center: ol.proj.transform( [this.longitude, this.latitude], 'EPSG:4326', 'EPSG:3857' ),
+      zoom  : this.zoom
     } );
 
     var map = new ol.Map( {target: this.$.map, layers: [tile], view: view} );
